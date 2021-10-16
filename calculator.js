@@ -84,6 +84,7 @@ calculator.addEventListener('click', function(event) {
                     currentOperation = NO_OP;
                     operatorLastClicked = false;
                     prevOperation = currentOperation;
+                    numberAppend = false;
                 }
         }
     }
